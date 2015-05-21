@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lab 7</title>
+   <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   <header>
+      <h1>
+         Lab 7
+      </h1>
+   </header>
+
+   <article>
+      <h2>Personal Information</h2>
+      <form action="results.htm" novalidate="novalidate">
+        <div id="errorText"></div> 
+        <div id="numErrorText"></div>
+        
+        <fieldset id="contactinfo">
+          <label for="addrinput">
+            Street Address
+          </label>
+          <input type="text" id="addrinput" name="Address"/>
+          <label for="cityinput">
+            City
+          </label>
+          <input type="text" id="cityinput" name="City"/>
+          <label for="provinput">
+            State/Province
+          </label>
+           <select id="provinput" name="ProvinceState">
+ 	 			<option value="-1">Please Select Country First</option>
+		  </select>
+          <label for="zipinput">
+            Zip/Postal Code
+          </label>
+          <input type="text" id="zipinput" name="Zip"/>
+          <label for="countryinput">
+            Country
+          </label>
+          <select id="countryinput" name="Country">
+ 	 			<option value="-1">Please Select a Country</option>
+  				<option value="canada">Canada</option>
+  				<option value="us">US</option>
+		  </select>
+          
+        </fieldset>
+        <fieldset id="submitsection">
+          <input type="submit" id="submitBtn" value="Submit" />
+        </fieldset>
+     </form>
+	<p id="woo">text</p>
+   </article>
+	<script src="script.js">
+		function validate(){
+			var feels = document.getElementsById("contactinfo");
+			if(feels[0] == "ayylmao"){
+				
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+= Internet Tools W2015 Project
+Victoria Lacroix
+Kaitlynn Anderson-Butcher
+
+== Intro
+
+This is a website designed for our Internet Tools class. The class involved +HTML+, +CSS+, +PHP+, +Javascript+, +Ruby+... many of the basic building blocks are here, but is was more of a WebDev 101 than an in-depth look at web application development.
+
+== Contents
+
+* Various assignments and labs.
+* A small +Flash/JS+ game collection.
+* Our final project.
+** It's a Cookie Clicker clone, with leaderboards.
+
+== Requirements
+
++MySQL+, +PHP+, +Apache+... really, just run this on a LAMPS. It'll save you the headache.
+
+== Final Project
+
+We didn't want to implement +Ruby+ so we made the game about collecting Gems by clicking a Ruby.
+
+== What's missing?
+
+The SQL. Uhm.... Good luck!

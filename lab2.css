@@ -1,0 +1,37 @@
+
+html {
+	width:			auto;
+	height:			auto;
+	font-family:	"Arial";
+	font-size:		12pt;
+}
+body {
+	border:			20px solid #194a70;
+	border-radius:  25px;
+}
+table {
+	width:			100%;
+}
+h1 {
+	font-size:		12pt;
+	margin-left:	10%;
+}
+img {
+	display:		inline-block;
+}
+td {
+	text-align:			center;
+	padding:			7px;
+	width: 				50%;
+}
+.blu tr:nth-child(even) {
+	background:		#194a70;
+	color:			#ffcc00;
+}
+.yello tr:nth-child(even) {
+	background:		#ffcc00;
+	color:			#194a70;
+}
+tr:nth-child(odd) {
+	background: 	#ffffff;
+}

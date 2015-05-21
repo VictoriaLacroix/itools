@@ -1,0 +1,116 @@
+html {
+	width:			100%;
+	background:		linear-gradient(#c0ffe0 50%, #70c090);
+	height:			100%;
+	padding:		0px;
+	margin:			0px;
+	font-family:	"Arial", "Liberation";
+	font-size:		12pt;
+}
+
+body {
+	padding:		0px;
+	margin:			0px;
+	font-family:	"Arial", "Liberation";
+	font-size:		12pt;
+}
+
+table {
+	border-collapse:	collapse;
+	left:				3em;
+}
+
+td {
+	border:		1px solid #602020;
+}
+
+.navbar {
+	background-color:	#000000;
+	color:				#ffffff;
+	margin-top:			0px;
+	margin-bottom:		0px;
+	position:			fixed;
+	display:			inline;
+	width:				20%;
+	height:				100%;
+	z-index:			10;
+}
+
+.navbar h1 {
+	font-size:			16pt;
+	font-family:		"Courier New", "Ubuntu Mono";
+	font-weight:		bold;
+	text-align:			center;
+	text-decoration:	underline;
+}
+
+.navbar h1:hover {
+	color:				#000000;
+	text-decoration:	underline;
+}
+
+.navbar ul {	
+	background-color:	#000000;
+	margin-top:			16px;
+	width:				100%;
+	list-style-type:	none;
+	text-shadow:		1px	1px	#404040;
+	padding:			0px;
+}
+
+.navbar p {
+	font-family:	"Courier New", "Ubuntu Mono";
+	font-size:		9pt;
+	font-weight:	bold;
+	text-align:		center;
+	padding:		7px;
+}
+
+.navbar a {
+	margin:				0px;
+	padding:			10px;
+	color:				#ffffff;
+	display:			block;
+	text-decoration:	none;
+}
+
+.navbar a:hover {
+	background-color:	#ffffff;
+	color:				#000000;
+	text-shadow:		2px 2px #c0c0c0;
+}
+
+.navbar li ul {
+	display:			none;
+}
+
+.navbar li:hover ul, li ul:hover {
+	margin-top:			0px;
+	left:				100%;
+	display: 			inline;
+	position:			absolute;
+	width:				auto;
+	height:				auto;
+	white-space:		nowrap;	
+}
+
+.content {
+	color:				#602020;
+	position:			fixed;
+	float:				left;
+	left:				20%;
+	height:				100%;
+	width:				80%;
+	z-index:			0;
+	overflow-y:			scroll;
+}
+
+.content div {
+	margin:				0px 0px 0px 0px;
+	padding:			2%;
+}
+
+.content h1 {
+	font-size:	20pt;
+}
+
